@@ -2,6 +2,7 @@
  * 
  */
 package ex2.git;
+import java.util.Scanner;
 
 /**
  * @author Arthur
@@ -10,11 +11,27 @@ package ex2.git;
 public class TiposPrimitivos {
 
 	public static void main(String[] args) {
-		float nota_1 = 8.5f;
-		float nota_2 = (float)9.5;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Digite o nome do aluno");
+		String nome = teclado.nextLine();
+		System.out.println("Digite a nota do aluno");
+		float nota_1 = teclado.nextFloat();
 		
-		System.out.printf("A nota 1: %.2f", nota_1);
-		System.out.printf(" e A nota 2: %.2f", nota_2);
+		System.out.println("O nome é: " + nome);
+		System.out.printf("E a nota é: %.2f", nota_1);
+		
+		// Converter inteiro para String
+		
+		int idade = 30;
+		String valor = Integer.toString(idade);
+		System.out.println("\nTransformando Int em String: " + valor);
+		
+		// Converter String para inteiro
+		
+		String valor_2 = "30.5";
+		float idade_2 = Float.parseFloat(valor_2);
+		System.out.println("\nTransformando String em Int: " + idade_2);
+				
 
 	}
 
