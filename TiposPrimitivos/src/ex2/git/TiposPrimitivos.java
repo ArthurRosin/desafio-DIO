@@ -26,11 +26,11 @@ public class TiposPrimitivos {
 		String valor = Integer.toString(idade);
 		System.out.println("\nTransformando Int em String: " + valor);
 		
-		// Converter String para inteiro
+		// Converter String para Float
 		
 		String valor_2 = "30.5";
 		float idade_2 = Float.parseFloat(valor_2);
-		System.out.println("\nTransformando String em Int: " + idade_2);
+		System.out.println("\nTransformando String em Float: " + idade_2);
 				
 
 	}

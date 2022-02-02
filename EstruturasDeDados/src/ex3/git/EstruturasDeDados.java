@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package ex3.git;
+
+/**
+ * @author Arthur
+ *
+ */
+public class EstruturasDeDados {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
