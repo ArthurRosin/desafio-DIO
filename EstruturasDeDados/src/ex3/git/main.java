@@ -21,6 +21,7 @@ public class main {
 		
 		minhaPilha.push(new Nó (99));
 		System.out.println(minhaPilha);
+			
 		
 	}
 	
