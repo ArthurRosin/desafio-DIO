@@ -1,3 +1,3 @@
 # desafio DIO
 
-Projeto que visa registrar o aprndizado da linguagem Java :coffee:
+Projeto que visa registrar o aprendizado da linguagem Java :coffee:
